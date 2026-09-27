@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>SmartGuard app icon</title>
+  <!-- Scan-S monogram: two focus brackets form an S around a lock: the recognised person's own protected rules. -->
+  <rect width="1024" height="1024" rx="232" fill="#141414"/>
+  <g fill="none" stroke="#FFD400" stroke-width="96" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M700 300 H396 A96 96 0 0 0 300 396 V468"/>
+    <path d="M324 724 H628 A96 96 0 0 0 724 628 V556"/>
+  </g>
+  <g transform="translate(512 512) scale(1.2) translate(-512 -512)"><path fill="#F7F5F0" fill-rule="evenodd" d="M474 510 H550 A22 22 0 0 1 572 532 V578 A22 22 0 0 1 550 600 H474 A22 22 0 0 1 452 578 V532 A22 22 0 0 1 474 510 Z M506 559.5 A13 13 0 1 1 518 559.5 L520 582 H504 Z"/><path d="M475 520 V475 A37 37 0 0 1 549 475 V520" fill="none" stroke="#F7F5F0" stroke-width="26" stroke-linecap="round"/></g>
+</svg>

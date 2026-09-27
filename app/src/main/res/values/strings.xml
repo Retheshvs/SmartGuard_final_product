@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SmartGuard</string>
+    <string name="accessibility_service_name">SmartGuard Enforcement Service</string>
+    <string name="accessibility_service_description">Monitors app switches to enforce SmartGuard profile restrictions and screen-time limits on-device.</string>
+    <string name="device_admin_label">SmartGuard Anti-Bypass Protection</string>
+    <string name="device_admin_description">Prevents unauthorized app uninstallation, safe-boot bypass, and factory resets without adult authentication.</string>
+    
+    <string name="mode_child">Child Mode</string>
+    <string name="mode_teen">Teen Mode</string>
+    <string name="mode_adult">Adult Mode</string>
+    <string name="mode_restrictive">Safe Restrictive Mode</string>
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_surface"
+    android:gravity="center_horizontal"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="6dp"
+        android:gravity="center_vertical"
+        android:text="SmartGuard"
+        android:textColor="@color/text_muted"
+        android:textSize="13sp"
+        app:drawableStartCompat="@drawable/ic_logo_mark"
+        app:drawableTint="@color/text_muted" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:layout_width="284dp"
+        android:layout_height="284dp"
+        android:clipChildren="false">
+
+        <View
+            android:id="@+id/pulseRing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:background="@drawable/bg_pulse_ring" />
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/ring"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:indeterminate="true"
+            app:indicatorInset="0dp"
+                app:indicatorColor="@color/primary"
+            app:indicatorSize="284dp"
+            app:trackColor="@color/ring_track"
+            app:trackCornerRadius="6dp"
+            app:trackThickness="8dp" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cameraCircle"
+            android:layout_width="248dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/bg_subtle"
+            app:cardCornerRadius="124dp"
+            app:cardElevation="0dp"
+            app:strokeWidth="0dp">
+
+            <androidx.camera.view.PreviewView
+                android:id="@+id/previewView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.smartguard.ui.widget.FaceMeshView
+                android:id="@+id/faceMesh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0" />
+
+            <View
+                android:id="@+id/scanLine"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:alpha="0.8"
+                android:background="@color/primary" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <ImageView
+            android:id="@+id/resultBadge"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="14dp"
+            android:background="@drawable/bg_avatar"
+            android:backgroundTint="@color/bg_surface"
+            android:contentDescription="@null"
+            android:padding="6dp"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:src="@drawable/ic_check_circle"
+            app:tint="@color/accent_emerald" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="Look at the screen"
+        android:textColor="@color/text_primary"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:minLines="2"
+        android:text="Checking who's holding the phone"
+        android:textColor="@color/text_secondary"
+        android:textSize="15sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="6dp"
+        android:gravity="center_vertical"
+        android:text="Checked on this phone. Nothing is uploaded."
+        android:textColor="@color/text_muted"
+        android:textSize="12sp"
+        app:drawableStartCompat="@drawable/ic_lock"
+        app:drawableTint="@color/text_muted" />
+</LinearLayout>

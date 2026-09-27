@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Soft "home screen wallpaper" behind the hand-over app grid (white labels read well on it). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="315"
+        android:centerColor="#3B3A8F"
+        android:endColor="#0F766E"
+        android:startColor="#1E1B4B"
+        android:type="linear" />
+</shape>

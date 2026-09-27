@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tab_home" android:icon="@drawable/ic_home" android:title="Home" />
+    <item android:id="@+id/tab_family" android:icon="@drawable/ic_family" android:title="Family" />
+    <item android:id="@+id/tab_protection" android:icon="@drawable/ic_shield" android:title="Protection" />
+</menu>

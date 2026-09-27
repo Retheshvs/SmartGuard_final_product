@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The full-colour app icon (rounded square), for in-app hero spots like first-time setup. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+    <path
+        android:fillColor="#141414"
+        android:pathData="M232,0 H792 A232,232 0 0,1 1024,232 V792 A232,232 0 0,1 792,1024 H232 A232,232 0 0,1 0,792 V232 A232,232 0 0,1 232,0 z" />
+    <path
+        android:pathData="M700,300 H396 A96,96 0 0,0 300,396 V468"
+        android:strokeWidth="96"
+        android:strokeColor="#FFD400"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M324,724 H628 A96,96 0 0,0 724,628 V556"
+        android:strokeWidth="96"
+        android:strokeColor="#FFD400"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- Lock at the centre (keyhole cut out), 1.2x about the centre. -->
+    <group
+        android:pivotX="512"
+        android:pivotY="512"
+        android:scaleX="1.2"
+        android:scaleY="1.2">
+        <path
+            android:fillColor="#F7F5F0"
+            android:fillType="evenOdd"
+            android:pathData="M474,510 H550 A22,22 0 0,1 572,532 V578 A22,22 0 0,1 550,600 H474 A22,22 0 0,1 452,578 V532 A22,22 0 0,1 474,510 Z M506,559.5 A13,13 0 1,1 518,559.5 L520,582 H504 Z" />
+        <path
+            android:pathData="M475,520 V475 A37,37 0 0,1 549,475 V520"
+            android:strokeWidth="26"
+            android:strokeColor="#F7F5F0"
+            android:strokeLineCap="round" />
+    </group>
+</vector>

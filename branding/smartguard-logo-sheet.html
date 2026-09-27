@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SmartGuard Logo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=DM+Sans:wght@400;500;700&display=swap">
+<style>
+  :root{--cream:#F7F5F0;--card:#EDEAE2;--ink:#141414;--ink2:#16150F;--muted:#6B675D;--yellow:#FFD400;--line:#DAD6CC}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--cream);color:var(--ink2);font:15px/1.5 "DM Sans",system-ui,sans-serif;padding:40px 48px 56px;width:1440px}
+  .eyebrow{display:flex;align-items:center;gap:10px;font:700 12px/1 "DM Sans";letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+  .eyebrow::before{content:"";width:9px;height:9px;border-radius:2px;background:var(--yellow)}
+  h1{font:700 40px/1.1 "Space Grotesk",sans-serif;letter-spacing:-.02em;margin:10px 0 6px}
+  .sub{color:var(--muted);font-size:16px;margin:0 0 28px;max-width:70ch}
+  .row{display:grid;gap:18px}
+  .hero{grid-template-columns:420px 1fr}
+  .card{border-radius:24px;padding:26px;position:relative}
+  .dark{background:var(--ink);color:var(--cream)}
+  .grey{background:var(--card)}
+  .label{font:700 11px/1 "DM Sans";letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+  .dark .label{color:var(--yellow)}
+  .icon-big{display:flex;justify-content:center;align-items:center;height:330px}
+  .icon-big svg{width:300px;height:300px;filter:drop-shadow(0 18px 30px rgba(0,0,0,.35))}
+  .lockups{display:grid;grid-template-rows:1fr 1fr;gap:18px}
+  .lockup{display:flex;align-items:center;gap:22px;height:100%}
+  .lockup svg{width:96px;height:96px;flex:none}
+  .word{font:700 64px/1 "Space Grotesk",sans-serif;letter-spacing:-.03em}
+  .word b{color:var(--yellow);font-weight:700}
+  .grey .word b{color:var(--ink)}
+  .tag{font:500 16px/1.2 "DM Sans";margin-top:8px;color:var(--muted)}
+  .dark .tag{color:#BDBAB1}
+  .meaning{grid-template-columns:repeat(3,1fr);margin-top:18px}
+  .meaning h3{font:700 18px/1.2 "Space Grotesk";margin:0 0 6px}
+  .meaning p{margin:0;color:#57544B}
+  .sizes{display:flex;align-items:flex-end;gap:26px;margin-top:6px}
+  .sizes figure{margin:0;text-align:center;font:500 12px "DM Sans";color:var(--muted)}
+  .sizes svg{display:block;margin:0 auto 8px}
+  .phone{width:250px;height:250px;border-radius:40px;background:linear-gradient(160deg,#2B3A55,#1F6F63);display:grid;grid-template-columns:repeat(3,56px);gap:18px;justify-content:center;align-content:center}
+  .phone i{display:block;width:56px;height:56px;border-radius:16px;background:rgba(255,255,255,.22)}
+  .phone svg{width:56px;height:56px}
+  .alts{grid-template-columns:1fr 1fr;margin-top:18px}
+  .alt{display:flex;gap:24px;align-items:center}
+  .alt svg{width:150px;height:150px;flex:none}
+  .alt h3{font:700 20px/1.2 "Space Grotesk";margin:0 0 6px}
+  .alt p{margin:0;color:#57544B}
+  .palette{display:flex;gap:12px;margin-top:4px}
+  .sw{width:120px;border-radius:16px;overflow:hidden;background:#fff;font:500 12px "DM Sans";color:var(--muted)}
+  .sw span{display:block;height:56px}
+  .sw div{padding:8px 10px}
+  .bottom{grid-template-columns:1.2fr 1fr;margin-top:18px}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="scanS" viewBox="0 0 1024 1024">
+      <rect width="1024" height="1024" rx="232" fill="#141414"/>
+      <g fill="none" stroke="#FFD400" stroke-width="96" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M700 300 H396 A96 96 0 0 0 300 396 V468"/>
+        <path d="M324 724 H628 A96 96 0 0 0 724 628 V556"/>
+      </g>
+      <g transform="translate(512 512) scale(1.2) translate(-512 -512)"><path fill="#F7F5F0" fill-rule="evenodd" d="M474 510 H550 A22 22 0 0 1 572 532 V578 A22 22 0 0 1 550 600 H474 A22 22 0 0 1 452 578 V532 A22 22 0 0 1 474 510 Z M506 559.5 A13 13 0 1 1 518 559.5 L520 582 H504 Z"/><path d="M475 520 V475 A37 37 0 0 1 549 475 V520" fill="none" stroke="#F7F5F0" stroke-width="26" stroke-linecap="round"/></g>
+    </symbol>
+    <symbol id="markDark" viewBox="252 252 520 520">
+      <g fill="none" stroke="#FFD400" stroke-width="96" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M700 300 H396 A96 96 0 0 0 300 396 V468"/>
+        <path d="M324 724 H628 A96 96 0 0 0 724 628 V556"/>
+      </g>
+      <g transform="translate(512 512) scale(1.2) translate(-512 -512)"><path fill="#F7F5F0" fill-rule="evenodd" d="M474 510 H550 A22 22 0 0 1 572 532 V578 A22 22 0 0 1 550 600 H474 A22 22 0 0 1 452 578 V532 A22 22 0 0 1 474 510 Z M506 559.5 A13 13 0 1 1 518 559.5 L520 582 H504 Z"/><path d="M475 520 V475 A37 37 0 0 1 549 475 V520" fill="none" stroke="#F7F5F0" stroke-width="26" stroke-linecap="round"/></g>
+    </symbol>
+    <symbol id="markInk" viewBox="252 252 520 520">
+      <g fill="none" stroke="#141414" stroke-width="96" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M700 300 H396 A96 96 0 0 0 300 396 V468"/>
+        <path d="M324 724 H628 A96 96 0 0 0 724 628 V556"/>
+      </g>
+      <g transform="translate(512 512) scale(1.2) translate(-512 -512)"><path fill="#141414" fill-rule="evenodd" d="M474 510 H550 A22 22 0 0 1 572 532 V578 A22 22 0 0 1 550 600 H474 A22 22 0 0 1 452 578 V532 A22 22 0 0 1 474 510 Z M506 559.5 A13 13 0 1 1 518 559.5 L520 582 H504 Z"/><path d="M475 520 V475 A37 37 0 0 1 549 475 V520" fill="none" stroke="#141414" stroke-width="26" stroke-linecap="round"/></g>
+    </symbol>
+    <symbol id="shield" viewBox="0 0 1024 1024">
+      <rect width="1024" height="1024" rx="232" fill="#141414"/>
+      <g fill="none" stroke="#FFD400" stroke-width="80" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M300 440 V310 A50 50 0 0 1 350 260 H440"/>
+        <path d="M584 260 H674 A50 50 0 0 1 724 310 V440"/>
+        <path d="M300 548 C300 660 392 738 512 792 C632 738 724 660 724 548"/>
+      </g>
+      <circle cx="512" cy="470" r="62" fill="#F7F5F0"/>
+    </symbol>
+    <symbol id="keyhole" viewBox="0 0 1024 1024">
+      <rect width="1024" height="1024" rx="232" fill="#FFD400"/>
+      <circle cx="512" cy="392" r="132" fill="#141414"/>
+      <path d="M446 486 H578 L632 780 H392 Z" fill="#141414" stroke="#141414" stroke-width="36" stroke-linejoin="round"/>
+      <rect x="360" y="596" width="304" height="26" fill="#FFD400"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="eyebrow">Brand identity</div>
+<h1>SmartGuard logo</h1>
+<p class="sub">A scan-S monogram: two camera-focus corners form an S around a small lock, the protection each recognised person gets. Built from the pitch deck's palette so the app, deck and demo look like one product.</p>
+
+<div class="row hero">
+  <div class="card dark">
+    <div class="label">App icon</div>
+    <div class="icon-big"><svg><use href="#scanS"/></svg></div>
+  </div>
+  <div class="lockups">
+    <div class="card dark"><div class="label">Logo on dark</div>
+      <div class="lockup"><svg><use href="#markDark"/></svg>
+        <div><div class="word">Smart<b>Guard</b></div><div class="tag">A phone that knows who’s holding it.</div></div></div>
+    </div>
+    <div class="card grey"><div class="label">Logo on light, one colour</div>
+      <div class="lockup"><svg><use href="#markInk"/></svg>
+        <div><div class="word">Smart<b>Guard</b></div><div class="tag">A phone that knows who’s holding it.</div></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="row meaning">
+  <div class="card grey"><h3>Focus corners</h3><p>The two brackets are the corners a camera draws around a face it has found: recognition, the heart of the product.</p></div>
+  <div class="card grey"><h3>The letter S</h3><p>Read together, the corners trace an S for SmartGuard, so the mark works as a monogram.</p></div>
+  <div class="card grey"><h3>The lock</h3><p>At the centre of the frame sits a lock: once the phone knows who is holding it, their own rules lock into place.</p></div>
+</div>
+
+<div class="row bottom">
+  <div class="card grey">
+    <div class="label">Small sizes and on a home screen</div>
+    <div style="display:flex;gap:40px;align-items:center">
+      <div class="sizes">
+        <figure><svg width="96" height="96"><use href="#scanS"/></svg>96 px</figure>
+        <figure><svg width="48" height="48"><use href="#scanS"/></svg>48 px</figure>
+        <figure><svg width="32" height="32"><use href="#scanS"/></svg>32 px</figure>
+        <figure><svg width="20" height="20"><use href="#scanS"/></svg>20 px</figure>
+      </div>
+      <div class="phone"><i></i><i></i><i></i><i></i><svg><use href="#scanS"/></svg><i></i><i></i><i></i><i></i></div>
+    </div>
+  </div>
+  <div class="card grey">
+    <div class="label">Palette</div>
+    <div class="palette">
+      <div class="sw"><span style="background:#FFD400"></span><div>Signal yellow<br>#FFD400</div></div>
+      <div class="sw"><span style="background:#141414"></span><div>Ink<br>#141414</div></div>
+      <div class="sw"><span style="background:#F7F5F0;border-bottom:1px solid #DAD6CC"></span><div>Cream<br>#F7F5F0</div></div>
+    </div>
+    <p style="margin:14px 0 0;color:#57544B">Wordmark: Space Grotesk Bold, “Guard” in yellow on dark. Body text: DM Sans.</p>
+  </div>
+</div>
+
+<div class="row alts">
+  <div class="card grey alt"><svg><use href="#shield"/></svg><div><div class="label">Alternative A</div><h3>Scan shield</h3><p>A shield drawn with face-scan brackets. Says “protection” instantly, but shields are common in security apps.</p></div></div>
+  <div class="card grey alt"><svg><use href="#keyhole"/></svg><div><div class="label">Alternative B</div><h3>Person keyhole</h3><p>The person is the key: your face unlocks your own rules. Friendly and bold, though keyholes suggest a lock app.</p></div></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Debug-build only: developer probes. Not present in release builds. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- adb shell am start -n com.smartguard/.debug.LlmProbeActivity -\-es prompts "rule one|rule two" -->
+        <activity
+            android:name="com.smartguard.debug.LlmProbeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SmartGuard" />
+
+        <!-- adb shell am start -n com.smartguard/.debug.ScreenTimeProbeActivity -\-ei seconds 15 -->
+        <activity
+            android:name="com.smartguard.debug.ScreenTimeProbeActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.NoDisplay" />
+
+        <!-- adb shell am start -n com.smartguard/.debug.RecognitionProbeActivity -->
+        <activity
+            android:name="com.smartguard.debug.RecognitionProbeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SmartGuard" />
+    </application>
+</manifest>

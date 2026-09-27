@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Status-bar notification icon: the scan-S mark in white (Android draws only its shape). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="560"
+    android:viewportHeight="560">
+    <group
+        android:translateX="-232"
+        android:translateY="-232">
+        <path
+            android:pathData="M700,300 H396 A96,96 0 0,0 300,396 V468"
+            android:strokeWidth="96"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M324,724 H628 A96,96 0 0,0 724,628 V556"
+            android:strokeWidth="96"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <!-- Lock at the centre (keyhole cut out), 1.2x about the centre. -->
+        <group
+            android:pivotX="512"
+            android:pivotY="512"
+            android:scaleX="1.2"
+            android:scaleY="1.2">
+            <path
+                android:fillColor="#FFFFFFFF"
+                android:fillType="evenOdd"
+                android:pathData="M474,510 H550 A22,22 0 0,1 572,532 V578 A22,22 0 0,1 550,600 H474 A22,22 0 0,1 452,578 V532 A22,22 0 0,1 474,510 Z M506,559.5 A13,13 0 1,1 518,559.5 L520,582 H504 Z" />
+            <path
+                android:pathData="M475,520 V475 A37,37 0 0,1 549,475 V520"
+                android:strokeWidth="26"
+                android:strokeColor="#FFFFFFFF"
+                android:strokeLineCap="round" />
+        </group>
+    </group>
+</vector>

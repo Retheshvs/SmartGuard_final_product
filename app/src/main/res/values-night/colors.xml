@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#0F1115</color>
+    <color name="bg_surface">#171A20</color>
+    <color name="bg_card">#1B1E25</color>
+    <color name="bg_card_stroke">#2A2E37</color>
+    <color name="bg_subtle">#22262E</color>
+
+    <color name="primary">#8AA8FF</color>
+    <color name="primary_variant">#6E8FF0</color>
+    <color name="on_primary">#0B1330</color>
+    <color name="primary_container">#1F2A4A</color>
+    <color name="on_primary_container">#C9D6FF</color>
+
+    <color name="accent_cyan">#8AA8FF</color>
+    <color name="accent_emerald">#5BD08A</color>
+    <color name="accent_amber">#F2B84B</color>
+    <color name="accent_rose">#F08080</color>
+    <color name="success_container">#16301F</color>
+    <color name="warning_container">#33280F</color>
+    <color name="danger_container">#3A1A1A</color>
+
+    <color name="text_primary">#F2F3F5</color>
+    <color name="text_secondary">#B3B8C2</color>
+    <color name="text_muted">#7A808C</color>
+
+    <color name="ring_track">#2A2E37</color>
+
+    <color name="child_mode_bg">#16301F</color>
+    <color name="child_mode_fg">#5BD08A</color>
+    <color name="teen_mode_bg">#33280F</color>
+    <color name="teen_mode_fg">#F2B84B</color>
+    <color name="adult_mode_bg">#1F2A4A</color>
+    <color name="adult_mode_fg">#AFC3FF</color>
+    <color name="restrictive_mode_bg">#3A1A1A</color>
+    <color name="restrictive_mode_fg">#F08080</color>
+
+    <!-- Kid home: soft, friendly surfaces -->
+    <color name="kid_bg">#122033</color>
+    <color name="kid_tile">#1B2A40</color>
+    <color name="kid_time_bg">#2E2615</color>
+    <color name="kid_ink">#CFE0FF</color>
+</resources>

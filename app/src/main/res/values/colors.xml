@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Light palette (default). Dark values live in values-night/colors.xml with the same names,
+     so every screen follows the phone's light/dark setting automatically. -->
+<resources>
+    <!-- Surfaces (names kept for compatibility: bg_dark = page background) -->
+    <color name="bg_dark">#F5F6F8</color>
+    <color name="bg_surface">#FFFFFF</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_card_stroke">#E6E8EC</color>
+    <color name="bg_subtle">#EFF1F4</color>
+
+    <!-- One calm accent -->
+    <color name="primary">#3563E9</color>
+    <color name="primary_variant">#2A50C4</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#E9EFFD</color>
+    <color name="on_primary_container">#1E3A8A</color>
+
+    <!-- Status colours: only for meaning (ok / low time / blocked) -->
+    <color name="accent_cyan">#3563E9</color>
+    <color name="accent_emerald">#15803D</color>
+    <color name="accent_amber">#B45309</color>
+    <color name="accent_rose">#C62828</color>
+    <color name="success_container">#E7F5EC</color>
+    <color name="warning_container">#FDF3E1</color>
+    <color name="danger_container">#FCEBEB</color>
+
+    <color name="text_primary">#15171C</color>
+    <color name="text_secondary">#4B5160</color>
+    <color name="text_muted">#8A909C</color>
+
+    <color name="ring_track">#E4E7EC</color>
+
+    <!-- Mode chips -->
+    <color name="child_mode_bg">#E7F5EC</color>
+    <color name="child_mode_fg">#15803D</color>
+    <color name="teen_mode_bg">#FDF3E1</color>
+    <color name="teen_mode_fg">#B45309</color>
+    <color name="adult_mode_bg">#E9EFFD</color>
+    <color name="adult_mode_fg">#2A50C4</color>
+    <color name="restrictive_mode_bg">#FCEBEB</color>
+    <color name="restrictive_mode_fg">#C62828</color>
+
+    <!-- Kid home: soft, friendly surfaces -->
+    <color name="kid_bg">#EAF3FF</color>
+    <color name="kid_tile">#FFFFFF</color>
+    <color name="kid_time_bg">#FFF6E5</color>
+    <color name="kid_ink">#1F3A5F</color>
+</resources>
